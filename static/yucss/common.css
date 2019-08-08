@@ -1,0 +1,87 @@
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;font-family: "Microsoft Yahei","微软雅黑",verdana;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
+body{background:#fff;}
+a,a:hover{color:#333;}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.inner{
+	width: 1102px;
+	position: relative;
+	margin: auto;
+}
+.sup-tit{
+	line-height: 60px;
+	font-size: 54px;
+	color: #311759;
+}
+.sub-tit{
+	line-height: 30px;
+	font-size: 19px;
+	color: #311759;
+	font-family:  Arial, Helvetica, sans-serif;
+	letter-spacing: 6px;
+	padding-bottom: 20px;
+}
+*{
+	box-sizing: border-box;
+}
+.asset .inner {
+	width: 459px;
+    margin-bottom: -30px;
+}
+.m-userInfo .asset .item {
+    float: left;
+    width: 210px;
+    margin-bottom: 30px;
+}
+.asset .item .label {
+    float: left;
+    width: 56px;
+    margin-right: 20px;
+    text-align: left;
+}
+.asset .item .content a {
+	float: left;
+    color: #333;
+}
+.m-userInfo .icon-common-open-eye-black {
+	display: block;
+	float: left;
+    vertical-align: -2px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.icon-common-open-eye-black {
+	background-image: -webkit-image-set(url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/icon-common-sac4cd3eee3-ad4b2fc416.png) 1x,
+	url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x2/icon-common-s6738a33586-34959da5c5.png) 2x);
+    background-repeat: no-repeat;
+    background-position: 0 -1153px;
+    height: 16px;
+    width: 20px;
+}
+.w-icon-common{
+	background-image: -webkit-image-set(url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/icon-common-sac4cd3eee3-ad4b2fc416.png) 1x,
+	url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x2/icon-common-s6738a33586-34959da5c5.png) 2x);
+    background-repeat: no-repeat;
+}

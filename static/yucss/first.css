@@ -1,0 +1,379 @@
+a {
+  color: #333;
+}
+  .wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .wrap-center {
+    width: 1090px;
+    height: 1520px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background: white;
+  }
+  .side {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 896px;
+    background: white;
+    border: 1px solid #eaeaea;
+  }
+  .side_one {
+    width: 180px;
+    padding-top: 24px;
+  }
+  .m-sideItem {
+    text-align: left;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  .hd {
+    padding-left: 43px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+  }
+  .sideText {
+    line-height: 18px;
+    margin: 16px 0;
+  }
+  .bd {
+    text-align: left;
+  }
+  .sideText1 {
+    line-height: 18px;
+    margin: 16px 0;
+  }
+  .bd .w-menu-item {
+    font-size: 14px;
+    display: block;
+    padding-left: 41px;
+    border-left: 2px solid #fff;
+    color: #666;
+  }
+  .bd .w-menu-item.active {
+    color: #b4a078;
+    border-left-color: #bea988;
+  }
+  .bd .w-menu-item:hover {
+    color: #b4a078;
+  }
+  /*右边 */
+  .bigbox {
+    position: absolute;
+    right: 0;
+    width: 890px;
+    height: 1053px;
+  }
+  /* ---------------右边 */
+  .bigbox>div{
+      /* display: none; */
+      width: auto;
+  }
+  /* 第一部分 */
+.geren{
+  height: 420px;
+}
+.m-userInfo.levelMem {
+  background: url(http://yanxuan.nosdn.127.net/74349c4a78edd25ef03b6aac1db45a8e.png) no-repeat;
+}
+.m-userInfo {
+  height: 260px;
+  padding: 40px 0;
+  font-size: 14px;
+}
+.m-userInfo .info {
+  width: 378px;
+  margin-top: 10px;
+  padding-left: 60px;
+}
+.f-left{
+  float:left
+}
+.m-userInfo .info .infoWrap {
+  margin-bottom: 30px;
+}
+.m-userInfo .info .infoWrap .avatar {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-right: 40px;
+  border: 2px solid #f1f1f1;
+  border-radius: 50%;
+}
+.avatar img {
+  float: left;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+img {
+  vertical-align: top;
+}
+.name .nickname {
+  float: left;
+  margin-left: 33px;
+  margin-top:16px;
+  max-width: 134px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.growWrap{
+  width: 265px;
+  height: 21px;
+}
+.growWrap .growNum {
+  width: 265px;
+  height: 21px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.growWrap .process {
+  width: 265px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 19px;
+  background-color: #fff;
+}
+.growWrap .process .num {
+  height: 8px;
+  background-color: #BEA988;
+}
+.f-right{
+  float: right;
+}
+.m-userInfo .asset {
+  width: 510px;
+  height: 208px;
+  padding-left: 50px;
+  border-left: 1px dashed rgba(180,160,120,.38);
+  line-height: 22px;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+/* 第二部分 */
+.f-disabledmask, .f-pr, body {
+  position: relative;
+}
+.m-superMemberLeadTip .m-leadTip {
+  position: relative;
+  height: 140px;
+  margin-top: 20px;
+  background: url(http://yanxuan.nosdn.127.net/aa5260a4665014c0d12372170134910c.png) no-repeat;
+  color: #b4a078;
+  cursor: pointer;
+}
+.m-superMemberLeadTip .m-leadTip .statusText {
+  display: inline-block;
+  margin: 36px 0 0 238px;
+}
+.m-superMemberLeadTip .m-leadTip .statusText .line1 {
+  color: rgba(180,160,120,.84);
+}
+.m-superMemberLeadTip .m-leadTip .statusText .line2 {
+  color: #E6D6B5;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.m-superMemberLeadTip .m-leadTip .statusText .line2 .originPrice {
+  text-decoration: line-through;
+  color: rgba(230,214,181,.45);
+}
+.m-superMemberLeadTip .m-leadTip .statusText .line3 {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.m-superMemberLeadTip .openBtn {
+  position: absolute;
+  top: 51px;
+  right: 80px;
+  color: #fff;
+  width: 150px;
+  height: 36px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 36px;
+  background: linear-gradient(-145deg,#D2C2A2 0,#AF995D 100%);
+  border-radius: 18px;
+  z-index: 1;
+}
+/* 未完成订单 */
+.m-undoneOrderList.undoneOrderListNull {
+  border: 1px solid #eaeaea;
+  background: white;
+}
+.m-undoneOrderList {
+  margin-top: 20px;
+  color: #333;
+  font-size: 14px;
+}.m-undoneOrderList.undoneOrderListNull .w-orderListHd {
+  border: none;
+}
+.m-undoneOrderList .w-orderListHd {
+  height: 43px;
+  padding: 0 30px 0 20px;
+  background-color: rgb(244,244,244);
+  line-height: 42px;
+}
+.m-undoneOrderList .w-orderListHd h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #333;
+}
+.m-undoneOrderList .w-orderListHd h3 span{
+  display: block;
+  float: left;
+}
+.m-undoneOrderList .w-orderListHd h3 a{
+  float: right;
+}
+.m-undoneOrderList.undoneOrderListNull .listNullWraper {
+  height: 528px;
+  text-align: center;
+  overflow: hidden;
+}
+.m-emptyStatus {
+  margin: 150px 340px auto;
+  text-align: center;
+}
+.w-icon-empty {
+  background-image: -webkit-image-set(url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/icon-empty-s545adfbb0c-16fa2eeb53.png) 1x,
+  url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x2/icon-empty-s223d65534a-d12ecf748d.png) 2x);
+  background-repeat: no-repeat;
+}
+.icon-empty-order {
+  height: 180px;
+  width: 180px;
+  background-position: 0 -2040px;
+}
+.m-emptyStatus .emptyText {
+  font-size: 16px;
+  color: #999;
+}
+.m-undoneOrderList.undoneOrderListNull .listNullWraper .w-button {
+  margin-top: 10px;
+  width: 96px;
+  height: 28px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #c0ae8a;
+  border: 1px solid #c0ae8a;
+  background-color: #cccccc;
+  display: inline-block;
+}
+.m-undoneOrderList.undoneOrderListNull .listNullWraper .w-button.w-button-ghost:hover {
+  color: #c0ae8a;
+  border: 1px solid #c0ae8a;
+  background-color: #fff;
+}
+/* 轮播 */
+.m-slickWarp {
+  width: 1090px;
+  height: 365px;
+  display: inline-block;
+  border: 1px solid #e8e8e8;
+}
+.slickHead{
+  background-color: rgb(244,244,244);
+  overflow: hidden;
+}
+.m-slickWarp .slickHead .title {
+  padding-left: 22px;
+  line-height: 44px;
+  font-size: 17px;
+  height: 44px;
+}
+#rcmdContainer{
+  position: absolute;
+  top: 1100px;
+}
+.m-slick{
+  width: 100%;
+  height: 307px;
+}
+.banner_box {
+  margin-top: 12px;
+  width: 1088px;
+  height: 307px;
+  /* background: seagreen; */
+  }
+  .caini_banner{
+    width: 960px;
+    margin: 0 auto;
+  }
+.swiper-button-prev {
+  left: 2%;
+  position: absolute;
+  top: 30%;
+  margin-top: -16px;
+  margin-right: -20px;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  /* background: lawngreen; */
+  background: url("../yuimg/gonggong.png");
+  background-repeat: no-repeat;
+  background-position: 0 -2460px;
+  overflow: hidden;
+  vertical-align: top;
+  font-size: 12px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  margin-top: 48px;
+  }
+  .swiper-button-prev:hover {
+  background-position: 0 -2420px;
+  }
+  .swiper-button-next {
+  float: right;
+  z-index: 999;
+  right: 2%;
+  background: url("../yuimg/gonggong.png");
+  background-repeat: no-repeat;
+  background-position: 0 -4501px;
+  height: 30px;
+  width: 30px;
+  margin-top: -48px;
+  }
+  .swiper-button-next:hover {
+  background-position: 0 -4541px;
+  }
+  .swiper-container {
+  width: 100%;
+  height: 307px;
+  }
+  .car_icon {
+    position: absolute;
+    right: 47px;
+    bottom:8.5%;
+    background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/cart-sb9c1d935ed-136a897db8.png) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x2/cart-s69c3d14a1a-b6b0eb144e.png) 2x);
+    background-repeat: no-repeat;
+    background-position: 0 -199px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    }
+    .innerContent{
+      width: 100%;
+      height: 20px;
+      line-height: 20px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .caini_price{
+      height: 20px;
+      margin-top: 10px;
+      text-align: center;
+      color: red;
+      font-size: 16px;
+    }
