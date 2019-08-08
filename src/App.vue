@@ -1,23 +1,33 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div>
+    321
+    <!-- <banner></banner>
+    <er></er>
+    <router-view name='a'></router-view>
+    <router-view name='b'></router-view> -->
   </div>
 </template>
 
 <script>
+// import { swiper, swiperSlide } from "vue-awesome-swiper";
+// import Er from "./view/index";
+// import Banner from "./view/banner";
 export default {
-  name: 'App'
+
+  // components: {
+  //   // swiper,
+  //   // swiperSlide,
+  //   Er,
+  //   Banner,
+  // },
+  data() {
+    return {
+   
+  }
+}
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+
 </style>
